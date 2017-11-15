@@ -1,0 +1,957 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.1" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="Hexo, NexT" />
+
+
+
+
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.1" />
+
+
+
+
+
+
+<meta name="description" content="Learn some useful knowledge">
+<meta property="og:type" content="website">
+<meta property="og:title" content="听风">
+<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:site_name" content="听风">
+<meta property="og:description" content="Learn some useful knowledge">
+<meta property="og:locale" content="zh-Hans">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="听风">
+<meta name="twitter:description" content="Learn some useful knowledge">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    sidebar: {"position":"left","display":"post","offset":12,"offset_float":0,"b2t":false,"scrollpercent":false},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://yoursite.com/"/>
+
+
+
+
+
+  <title>听风</title>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left 
+   page-home 
+ ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">听风</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">懂的人自然懂，不懂的人说了也不懂</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+  <section id="posts" class="posts-expand">
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/04/23/数组动态合并/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="zxh">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/头像.JPG">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="听风">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2017/04/23/数组动态合并/" itemprop="url">数组动态合并</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-04-23T10:43:16+08:00">
+                2017-04-23
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/零碎问题/" itemprop="url" rel="index">
+                    <span itemprop="name">零碎问题</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h4 id="怎么让多个数组动态合并成一个数组"><a href="#怎么让多个数组动态合并成一个数组" class="headerlink" title="怎么让多个数组动态合并成一个数组"></a>怎么让多个数组动态合并成一个数组</h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="comment">// 多个数组</span></span><br><span class="line"><span class="keyword">var</span> result1=[<span class="string">'a'</span>,<span class="string">'b'</span>];</span><br><span class="line"><span class="keyword">var</span> result2=[<span class="string">'c'</span>,<span class="string">'d'</span>];</span><br><span class="line"><span class="keyword">var</span> result3=[<span class="string">'e'</span>,<span class="string">'f'</span>];</span><br><span class="line"><span class="keyword">var</span> result4=[<span class="string">'g'</span>,<span class="string">'h'</span>];</span><br><span class="line"><span class="keyword">var</span> result5=[<span class="string">'i'</span>,<span class="string">'j'</span>];</span><br><span class="line"></span><br><span class="line"><span class="comment">// 定义一个变量接收数组</span></span><br><span class="line"><span class="keyword">var</span> result=[];</span><br><span class="line"></span><br><span class="line"><span class="comment">// 遍历</span></span><br><span class="line"><span class="keyword">for</span> (<span class="keyword">var</span> i=<span class="number">1</span>;i&lt;<span class="number">6</span>;i++)&#123;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">var</span> j=<span class="number">0</span>;j&lt;<span class="built_in">eval</span>(<span class="string">'result'</span>+i).length;j++)&#123;</span><br><span class="line">        result.push(<span class="built_in">eval</span>(<span class="string">'result'</span>+i)[j])</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="built_in">console</span>.log(result);</span><br></pre></td></tr></table></figure>
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/03/03/web存储之间的区别/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="zxh">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/头像.JPG">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="听风">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2017/03/03/web存储之间的区别/" itemprop="url">web存储之间的区别</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-03-03T17:20:30+08:00">
+                2017-03-03
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/知识点/" itemprop="url" rel="index">
+                    <span itemprop="name">知识点</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h4 id="SessionStorage-、LocalStorage-和-Cookie-之间的区别？"><a href="#SessionStorage-、LocalStorage-和-Cookie-之间的区别？" class="headerlink" title="SessionStorage 、LocalStorage 和 Cookie 之间的区别？"></a>SessionStorage 、LocalStorage 和 Cookie 之间的区别？</h4><ul>
+<li>共同点：都是保存在浏览器端，且同源的。</li>
+<li>区别：<ol>
+<li>cookie数据始终在同源的http请求中携带（即使不需要），即cookie在浏览器和服务器间来回传递。而sessionStorage和localStorage不会自动把数据发给服务器，仅在本地保存。cookie数据还有路径（path）的概念，可以限制cookie只属于某个路径下。</li>
+<li>存储大小限制也不同，cookie数据不能超过4k，同时因为每次http请求都会携带cookie，所以cookie只适合保存很小的数据，如会话标识。sessionStorage和localStorage 虽然也有存储大小的限制，但比cookie大得多，可以达到5M或更大。</li>
+<li>数据有效期不同，sessionStorage：仅在当前浏览器窗口关闭前有效，自然也就不可能持久保持；localStorage：始终有效，窗口或浏览器关闭也一直保存，因此用作持久数据；cookie只在设置的cookie过期时间之前一直有效，即使窗口或浏览器关闭。</li>
+<li>作用域不同，sessionStorage不在不同的浏览器窗口中共享，即使是同一个页面；localStorage 在所有同源窗口中都是共享的；cookie也是在所有同源窗口中都是共享的。</li>
+<li>Web Storage 支持事件通知机制，可以将数据更新的通知发送给监听者。</li>
+<li>Web Storage 的 api 接口使用更方便。</li>
+</ol>
+</li>
+</ul>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/02/03/心灵鸡汤/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="zxh">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/头像.JPG">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="听风">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2017/02/03/心灵鸡汤/" itemprop="url">心灵鸡汤经典语录，温暖又励志！</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-02-03T13:22:50+08:00">
+                2017-02-03
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/鸡汤/" itemprop="url" rel="index">
+                    <span itemprop="name">鸡汤</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>让你的心渐渐变冷变硬的，往往是那个曾和你最亲密的人。</p>
+<h4 id="1、认识一个人靠缘分，了解一个人靠耐心，征服一个人靠智慧，和睦相处靠包容。"><a href="#1、认识一个人靠缘分，了解一个人靠耐心，征服一个人靠智慧，和睦相处靠包容。" class="headerlink" title="1、认识一个人靠缘分，了解一个人靠耐心，征服一个人靠智慧，和睦相处靠包容。"></a>1、认识一个人靠缘分，了解一个人靠耐心，征服一个人靠智慧，和睦相处靠包容。</h4><h4 id="2、不要占朋友的便宜，关系再怎么亲密，一旦没有界限，就没有底线了。"><a href="#2、不要占朋友的便宜，关系再怎么亲密，一旦没有界限，就没有底线了。" class="headerlink" title="2、不要占朋友的便宜，关系再怎么亲密，一旦没有界限，就没有底线了。"></a>2、不要占朋友的便宜，关系再怎么亲密，一旦没有界限，就没有底线了。</h4><h4 id="3、太过迁就别人，别人就会变本加厉的为难你；太过忍让别人，别人就会得寸进尺的伤害你。事实上你所遇见的人，多数都是被你的“好”给惯出来的。"><a href="#3、太过迁就别人，别人就会变本加厉的为难你；太过忍让别人，别人就会得寸进尺的伤害你。事实上你所遇见的人，多数都是被你的“好”给惯出来的。" class="headerlink" title="3、太过迁就别人，别人就会变本加厉的为难你；太过忍让别人，别人就会得寸进尺的伤害你。事实上你所遇见的人，多数都是被你的“好”给惯出来的。"></a>3、太过迁就别人，别人就会变本加厉的为难你；太过忍让别人，别人就会得寸进尺的伤害你。事实上你所遇见的人，多数都是被你的“好”给惯出来的。</h4><h4 id="4、爱情里最棒的心态就是：我的一切付出都是心甘情愿，我对此绝口不提。你若投桃报李，我会十分感激。你若无动于衷，我也不灰心丧气。直到有一天我不愿再这般爱你，那就让我们一别两宽，各生欢喜。"><a href="#4、爱情里最棒的心态就是：我的一切付出都是心甘情愿，我对此绝口不提。你若投桃报李，我会十分感激。你若无动于衷，我也不灰心丧气。直到有一天我不愿再这般爱你，那就让我们一别两宽，各生欢喜。" class="headerlink" title="4、爱情里最棒的心态就是：我的一切付出都是心甘情愿，我对此绝口不提。你若投桃报李，我会十分感激。你若无动于衷，我也不灰心丧气。直到有一天我不愿再这般爱你，那就让我们一别两宽，各生欢喜。"></a>4、爱情里最棒的心态就是：我的一切付出都是心甘情愿，我对此绝口不提。你若投桃报李，我会十分感激。你若无动于衷，我也不灰心丧气。直到有一天我不愿再这般爱你，那就让我们一别两宽，各生欢喜。</h4><h4 id="5、心灵鸡汤温暖语录：不要随便遇到一个人就对Ta掏心掏肺的，在你看来是朋友，在Ta看来，你是傻子。"><a href="#5、心灵鸡汤温暖语录：不要随便遇到一个人就对Ta掏心掏肺的，在你看来是朋友，在Ta看来，你是傻子。" class="headerlink" title="5、心灵鸡汤温暖语录：不要随便遇到一个人就对Ta掏心掏肺的，在你看来是朋友，在Ta看来，你是傻子。"></a>5、心灵鸡汤温暖语录：不要随便遇到一个人就对Ta掏心掏肺的，在你看来是朋友，在Ta看来，你是傻子。</h4><h4 id="6、唠叨，是女人最高阶的爱；沉默，是女人最可怕的冷酷。当一个女人变得安静，那就意味着她在逼着自己放下。"><a href="#6、唠叨，是女人最高阶的爱；沉默，是女人最可怕的冷酷。当一个女人变得安静，那就意味着她在逼着自己放下。" class="headerlink" title="6、唠叨，是女人最高阶的爱；沉默，是女人最可怕的冷酷。当一个女人变得安静，那就意味着她在逼着自己放下。"></a>6、唠叨，是女人最高阶的爱；沉默，是女人最可怕的冷酷。当一个女人变得安静，那就意味着她在逼着自己放下。</h4><h4 id="7、失望和生气是不一样的，生气只不过是想被人哄哄，而失望就是你说什么我都听不进去，开始理性思考，不抱有希望。"><a href="#7、失望和生气是不一样的，生气只不过是想被人哄哄，而失望就是你说什么我都听不进去，开始理性思考，不抱有希望。" class="headerlink" title="7、失望和生气是不一样的，生气只不过是想被人哄哄，而失望就是你说什么我都听不进去，开始理性思考，不抱有希望。"></a>7、失望和生气是不一样的，生气只不过是想被人哄哄，而失望就是你说什么我都听不进去，开始理性思考，不抱有希望。</h4><h4 id="8、已经不记得说过多少次“再也不理他了”“再也不因为他委屈自己了”“真的发誓再也不喜欢他了”，可是只要他稍稍一勾手，我还是跟着走。"><a href="#8、已经不记得说过多少次“再也不理他了”“再也不因为他委屈自己了”“真的发誓再也不喜欢他了”，可是只要他稍稍一勾手，我还是跟着走。" class="headerlink" title="8、已经不记得说过多少次“再也不理他了”“再也不因为他委屈自己了”“真的发誓再也不喜欢他了”，可是只要他稍稍一勾手，我还是跟着走。"></a>8、已经不记得说过多少次“再也不理他了”“再也不因为他委屈自己了”“真的发誓再也不喜欢他了”，可是只要他稍稍一勾手，我还是跟着走。</h4><p><img src="心灵鸡汤/genwozou.jpg" alt="Alt text" title="跟我走"></p>
+<h4 id="9、生活不可能像你想象得那么好，但也不会像你想象得那么糟。我觉得人的脆弱和坚强都超乎自己的想象。有时，我可能脆弱得一句话就泪流满面，有时，也发现自己咬着牙走了很长的路。"><a href="#9、生活不可能像你想象得那么好，但也不会像你想象得那么糟。我觉得人的脆弱和坚强都超乎自己的想象。有时，我可能脆弱得一句话就泪流满面，有时，也发现自己咬着牙走了很长的路。" class="headerlink" title="9、生活不可能像你想象得那么好，但也不会像你想象得那么糟。我觉得人的脆弱和坚强都超乎自己的想象。有时，我可能脆弱得一句话就泪流满面，有时，也发现自己咬着牙走了很长的路。"></a>9、生活不可能像你想象得那么好，但也不会像你想象得那么糟。我觉得人的脆弱和坚强都超乎自己的想象。有时，我可能脆弱得一句话就泪流满面，有时，也发现自己咬着牙走了很长的路。</h4><h4 id="10、努力了、珍惜了、问心无愧就好，不期待突如其来的好运，只希望所有的努力终有回报。"><a href="#10、努力了、珍惜了、问心无愧就好，不期待突如其来的好运，只希望所有的努力终有回报。" class="headerlink" title="10、努力了、珍惜了、问心无愧就好，不期待突如其来的好运，只希望所有的努力终有回报。"></a>10、努力了、珍惜了、问心无愧就好，不期待突如其来的好运，只希望所有的努力终有回报。</h4><h4 id="11、心灵鸡汤：好看的皮囊千篇一律，有趣的灵魂寥寥无几，趣味相投也好，臭味相投也罢，能遇到个能随时陪自己去“疯”的人，那就一定是三生有幸。"><a href="#11、心灵鸡汤：好看的皮囊千篇一律，有趣的灵魂寥寥无几，趣味相投也好，臭味相投也罢，能遇到个能随时陪自己去“疯”的人，那就一定是三生有幸。" class="headerlink" title="11、心灵鸡汤：好看的皮囊千篇一律，有趣的灵魂寥寥无几，趣味相投也好，臭味相投也罢，能遇到个能随时陪自己去“疯”的人，那就一定是三生有幸。"></a>11、心灵鸡汤：好看的皮囊千篇一律，有趣的灵魂寥寥无几，趣味相投也好，臭味相投也罢，能遇到个能随时陪自己去“疯”的人，那就一定是三生有幸。</h4><h4 id="12、只有碰到喜欢的人才会变成话唠，碰到不喜欢的人一句话也不想多说。"><a href="#12、只有碰到喜欢的人才会变成话唠，碰到不喜欢的人一句话也不想多说。" class="headerlink" title="12、只有碰到喜欢的人才会变成话唠，碰到不喜欢的人一句话也不想多说。"></a>12、只有碰到喜欢的人才会变成话唠，碰到不喜欢的人一句话也不想多说。</h4><h4 id="13、我讨厌某种人很长一段时间都忽略我，然后又突然开始和我说话，好像什么事情也没有发生过一样。"><a href="#13、我讨厌某种人很长一段时间都忽略我，然后又突然开始和我说话，好像什么事情也没有发生过一样。" class="headerlink" title="13、我讨厌某种人很长一段时间都忽略我，然后又突然开始和我说话，好像什么事情也没有发生过一样。"></a>13、我讨厌某种人很长一段时间都忽略我，然后又突然开始和我说话，好像什么事情也没有发生过一样。</h4><h4 id="14、按自己希望的方式生活不叫自私，要求別人按照自己希望的方式生活才叫自私。"><a href="#14、按自己希望的方式生活不叫自私，要求別人按照自己希望的方式生活才叫自私。" class="headerlink" title="14、按自己希望的方式生活不叫自私，要求別人按照自己希望的方式生活才叫自私。"></a>14、按自己希望的方式生活不叫自私，要求別人按照自己希望的方式生活才叫自私。</h4><h4 id="15、成长就是从前我难过的时候，油盐不进茶饭不思，现在能一边流泪一边去厨房给自己下碗面，还不忘加俩荷包蛋。"><a href="#15、成长就是从前我难过的时候，油盐不进茶饭不思，现在能一边流泪一边去厨房给自己下碗面，还不忘加俩荷包蛋。" class="headerlink" title="15、成长就是从前我难过的时候，油盐不进茶饭不思，现在能一边流泪一边去厨房给自己下碗面，还不忘加俩荷包蛋。"></a>15、成长就是从前我难过的时候，油盐不进茶饭不思，现在能一边流泪一边去厨房给自己下碗面，还不忘加俩荷包蛋。</h4><p><img src="心灵鸡汤/hebaodan.jpg" alt="Alt text" title="荷包蛋"></p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+  </section>
+
+  
+
+
+          </div>
+          
+
+
+          
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <section class="site-overview sidebar-panel sidebar-panel-active">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/images/头像.JPG"
+               alt="zxh" />
+          <p class="site-author-name" itemprop="name">zxh</p>
+           
+              <p class="site-description motion-element" itemprop="description">Learn some useful knowledge</p>
+          
+        </div>
+        <nav class="site-state motion-element">
+
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/archives/">
+                <span class="site-state-item-count">3</span>
+                <span class="site-state-item-name">日志</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-categories">
+              <a href="/categories/index.html">
+                <span class="site-state-item-count">3</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-tags">
+              <a href="/tags/index.html">
+                <span class="site-state-item-count">3</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/xiaohui95" target="_blank" title="GitHub">
+                  
+                    <i class="fa fa-fw fa-github"></i>
+                  
+                  GitHub
+                </a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        
+        
+
+        
+
+
+      </section>
+
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy;  2016 - 
+  <span itemprop="copyrightYear">2017</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">zxh</span>
+</div>
+
+
+<div class="powered-by">
+  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Pisces
+  </a>
+</div>
+
+
+        
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+  
+  <script type="text/javascript" src="/lib/canvas-nest/canvas-nest.min.js"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.1"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.1"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.1"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.1"></script>
+
+
+
+  
+    <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.1"></script>
+
+  
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.1"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
